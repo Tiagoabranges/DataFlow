@@ -8,9 +8,9 @@ O DataFlow Monitor é um sistema completo que integra um servidor UDP, um client
 - [React](https://reactjs.org/)
 - [MongoDB](https://www.mongodb.com/)
 - [Express](https://expressjs.com/)
-- [dgram](https://nodejs.org/api/dgram.html) (para UDP)
-- [cors](https://expressjs.com/en/resources/middleware/cors.html) (para habilitar CORS)
-- [Docker](https://www.docker.com/) (para contêineres e implantação)
+- [dgram](https://nodejs.org/api/dgram.html)
+- [cors](https://expressjs.com/en/resources/middleware/cors.html)
+- [Docker](https://www.docker.com/)
 
 ## Funcionalidades 🌟
 
