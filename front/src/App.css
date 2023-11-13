@@ -1,34 +1,47 @@
+body {
+  background-color: #f4f4f2; /* Um tom de cinza suave */
+}
+
 .container {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   height: 100vh;
+  text-align: center;
+}
 
-  align-items: center;
+h1 {
+  color: #3a506b; /* Cor escura para o título */
+  font-size: 2.5rem; /* Tamanho maior para o título */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
 }
 
 table {
-  width: 60%;
+  width: 70%;
   border-collapse: collapse;
   margin-top: 20px;
 }
 
-th, td {
-  border: 1px solid #ddd;
+th {
+  background-color: #5bc0be; /* Cor de destaque para cabeçalhos de tabela */
+  color: white;
+  font-size: 1.1rem;
+}
+
+td {
+  border: 1px solid #050505;
   padding: 8px;
   text-align: left;
 }
 
 .row-style-0 {
-  background-color: black;
-  color: white;
+  background-color: #b8d8d8; /* Cores mais vivas para as linhas */
 }
 
 .row-style-1 {
-  background-color: rgb(168, 168, 73);
+  background-color: #7a9e9f;
 }
 
 .row-style-2 {
-  background-color: gold;
+  background-color: #4f6d7a;
 }
