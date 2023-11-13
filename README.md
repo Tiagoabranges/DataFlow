@@ -23,12 +23,40 @@ O DataFlow Monitor é um sistema completo que integra um servidor UDP, um client
 
 - Node.js instalado.
 - MongoDB rodando localmente ou em um container Docker.
+  
 
-### Instruções
+# 💻 Descrição
 
-1. Clone o repositório.
-2. Instale as dependências em cada parte do projeto (`npm install`).
-3. Inicie o servidor UDP, o cliente UDP, a API e o frontend React com `npm start` em seus respectivos diretórios.
+Descrição detalhada do seu projeto.
+
+# 🚀 Como Rodar o Projeto
+
+```bash
+# Clone este repositório
+$ git clone git@github.com:Tiagoabranges/DataFlow.git
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd DataFlow
+
+# Instale as dependências
+$ npm install
+
+# MongoDB com Docker
+$ docker run --name mongodb -d -p 27017:27017 mongo
+
+# Inicie o servidor UDP
+$ npm run start:server
+
+# Inicie o cliente UDP
+$ npm run start:client
+
+# Inicie a API
+$ npm run start:api
+
+# Inicie o Frontend React
+$ cd frontend
+$ npm run dev
+````
 
 ## Estrutura do Projeto 📂
 
