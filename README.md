@@ -44,4 +44,4 @@ Contribuições, problemas e solicitações de funcionalidades são bem-vindas. 
 
 ---
 
-Criado com ❤️ por [Tiago Abranges]
+Criado por [Tiago Abranges]
