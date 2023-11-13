@@ -7,8 +7,10 @@
     "start:server": "node src/udpServer/server.js",
     "start:client": "node src/udpClient/udpClient.js",
     "start:api": "node src/api/api.js",
-    "start": "echo 'Use start:server, start:client ou start:api'"
-},
+    "start": "echo 'Use start:server, start:client ou start:api'",
+    "lint": "eslint '*/**/*.{js,jsx}'",
+    "format": "prettier --write '*/**/*.{js,jsx,json}'"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -19,5 +21,8 @@
     "mongodb": "^6.2.0"
   },
   "devDependencies": {
+    "eslint": "^8.53.0",
+    "eslint-plugin-react": "^7.33.2",
+    "prettier": "^3.1.0"
   }
 }

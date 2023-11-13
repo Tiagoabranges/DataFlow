@@ -8,25 +8,31 @@ async function parseAndSaveData(msg, db) {
 
   if (match) {
     const [_, type, protocolo, yymmddhhmmss, status, id] = match;
-    const utc = `${yymmddhhmmss.substring(0, 4)}-${yymmddhhmmss.substring(4, 6)}-${yymmddhhmmss.substring(6, 8)} ${yymmddhhmmss.substring(8, 10)}:${yymmddhhmmss.substring(10, 12)}:${yymmddhhmmss.substring(12, 14)}`;
-    
+    const utc = `${yymmddhhmmss.substring(0, 4)}-${yymmddhhmmss.substring(
+      4,
+      6,
+    )}-${yymmddhhmmss.substring(6, 8)} ${yymmddhhmmss.substring(
+      8,
+      10,
+    )}:${yymmddhhmmss.substring(10, 12)}:${yymmddhhmmss.substring(12, 14)}`;
+
     const data = {
       type: parseInt(type),
       protocolo: parseInt(protocolo),
       utc: new Date(utc),
       status: parseInt(status),
-      id: id
+      id: id,
     };
 
     try {
-      const collection = db.collection("dev_status");
+      const collection = db.collection('dev_status');
       await collection.insertOne(data);
-      console.log("Data inserted:", data);
+      console.log('Data inserted:', data);
     } catch (error) {
-      console.error("Error inserting data:", error);
+      console.error('Error inserting data:', error);
     }
   } else {
-    console.log("Invalid message format:", msg.toString());
+    console.log('Invalid message format:', msg.toString());
   }
 }
 

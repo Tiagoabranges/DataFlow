@@ -1,6 +1,6 @@
-const { MongoClient } = require("mongodb");
+const { MongoClient } = require('mongodb');
 
-const uri = "mongodb://localhost:27017";
+const uri = 'mongodb://localhost:27017';
 const client = new MongoClient(uri);
 let db;
 
@@ -10,8 +10,8 @@ async function connectToMongo() {
   }
 
   await client.connect();
-  console.log("Connected to MongoDB");
-  db = client.db("mydb");
+  console.log('Connected to MongoDB');
+  db = client.db('mydb');
   return db;
 }
 
