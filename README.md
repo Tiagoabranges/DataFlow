@@ -29,7 +29,7 @@ O DataFlow Monitor é um sistema completo que integra um servidor UDP, um client
 
 # 💻 Descrição
 
-Descrição detalhada do seu projeto.
+O DataFlow Monitor é um sistema integrado que abrange um servidor UDP para recebimento e processamento de pacotes, um cliente UDP para envio de dados simulados, uma API REST para disponibilizar os dados processados e uma interface frontend em React para visualização dos dados em tempo real. Este sistema exemplifica a interconexão entre diferentes tecnologias e demonstra a capacidade de monitoramento e análise de dados em fluxo contínuo.
 
 # 🚀 Como Rodar o Projeto
 
@@ -77,8 +77,10 @@ Contribuições, problemas e solicitações de funcionalidades são bem-vindas. 
 
 ## Documentação Adicional 📚
 
-Para mais informações e uma visão detalhada do projeto, consulte a [Documentação no Notion](https://www.notion.so/SStelematica-daf3b7070f2f4365b518eb3451a7c340).
+Para mais informações e uma visão detalhada do projeto, consulte a <a href="[https://www.exemplo.com](https://www.notion.so/SStelematica-daf3b7070f2f4365b518eb3451a7c340)" target="_blank">Documentação no Notion</a>
+
 
 ## Sobre o Autor 👤
 
-Para entrar em contato ou saber mais sobre mim, visite meu [LinkedIn](https://www.linkedin.com/in/tiagoabranges/).
+Para entrar em contato ou saber mais sobre mim, visite meu <a href="[https://www.exemplo.com](https://www.linkedin.com/in/tiagoabranges/)" target="_blank">LinkedIn</a>
+
