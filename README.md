@@ -4,11 +4,13 @@ O DataFlow Monitor é um sistema completo que integra um servidor UDP, um client
 
 ## Tecnologias Utilizadas 💻
 
-- Node.js
-- React
-- MongoDB
-- Express
-- dgram (UDP)
+- [Node.js](https://nodejs.org/)
+- [React](https://reactjs.org/)
+- [MongoDB](https://www.mongodb.com/)
+- [Express](https://expressjs.com/)
+- [dgram](https://nodejs.org/api/dgram.html) (para UDP)
+- [cors](https://expressjs.com/en/resources/middleware/cors.html) (para habilitar CORS)
+- [Docker](https://www.docker.com/) (para contêineres e implantação)
 
 ## Funcionalidades 🌟
 
@@ -55,6 +57,7 @@ $ npm run start:api
 
 # Inicie o Frontend React
 $ cd frontend
+$ mpm install
 $ npm run dev
 ````
 
@@ -72,4 +75,10 @@ Contribuições, problemas e solicitações de funcionalidades são bem-vindas. 
 
 ---
 
-Criado por [Tiago Abranges]
+## Documentação Adicional 📚
+
+Para mais informações e uma visão detalhada do projeto, consulte a [Documentação no Notion](https://www.notion.so/SStelematica-daf3b7070f2f4365b518eb3451a7c340).
+
+## Sobre o Autor 👤
+
+Para entrar em contato ou saber mais sobre mim, visite meu [LinkedIn](https://www.linkedin.com/in/tiagoabranges/).
