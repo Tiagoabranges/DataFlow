@@ -1,4 +1,3 @@
-// udpServer/server.js
 const dgram = require('dgram');
 const server = dgram.createSocket('udp4');
 const connectToMongo = require('../db/mongoConnection');
@@ -47,4 +46,4 @@ server.on('listening', () => {
   console.log(`server listening ${address.address}:${address.port}`);
 });
 
-server.bind(41234); // Substitua pela porta desejada
+server.bind(41234);
