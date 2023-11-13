@@ -77,10 +77,10 @@ Contribuições, problemas e solicitações de funcionalidades são bem-vindas. 
 
 ## Documentação Adicional 📚
 
-Para mais informações e uma visão detalhada do projeto, consulte a <a href="[https://www.exemplo.com](https://www.notion.so/SStelematica-daf3b7070f2f4365b518eb3451a7c340)" target="_blank">Documentação no Notion</a>
+Para mais informações e uma visão detalhada do projeto, consulte a <a href="https://www.notion.so/SStelematica-daf3b7070f2f4365b518eb3451a7c340" target="_blank">Documentação no Notion</a>
 
 
 ## Sobre o Autor 👤
 
-Para entrar em contato ou saber mais sobre mim, visite meu <a href="[https://www.exemplo.com](https://www.linkedin.com/in/tiagoabranges/)" target="_blank">LinkedIn</a>
+Para entrar em contato ou saber mais sobre mim, visite meu <a href="https://www.linkedin.com/in/tiagoabranges/" target="_blank">LinkedIn</a>
 
