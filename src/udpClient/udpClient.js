@@ -1,5 +1,4 @@
 const dgram = require('dgram');
-const fs = require('fs');
 const client = dgram.createSocket('udp4');
 
 function generatePacket() {
@@ -15,23 +14,6 @@ function generatePacket() {
   return `>DATA${type},${protocolo},${utc},${status};ID=${id}<`;
 }
 
-function savePacketToFile(packet) {
-  const filePath = './packets.json';
-  fs.readFile(filePath, (err, data) => {
-    let packets = [];
-    if (!err && data.length) {
-      packets = JSON.parse(data);
-    }
-    packets.push(packet);
-
-    fs.writeFile(filePath, JSON.stringify(packets, null, 2), (err) => {
-      if (err) {
-        console.error('Error writing to file:', err);
-      }
-    });
-  });
-}
-
 function sendPacket() {
   const packet = generatePacket();
   const message = Buffer.from(packet);
@@ -41,7 +23,6 @@ function sendPacket() {
       client.close();
     } else {
       console.log('Packet sent:', packet);
-      savePacketToFile(packet);
     }
   });
 }
