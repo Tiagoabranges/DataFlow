@@ -61,7 +61,7 @@ $ docker run --name mongodb -d -p 27017:27017 mongo
 $ npm run start:api
 
 # Inicie o Frontend React
-$ cd frontend
+$ cd front
 $ npm install
 $ npm run dev
 ````
@@ -72,7 +72,7 @@ $ npm run dev
 - `udpClient`: Script para o cliente UDP.
 - `db`: Conexão com o MongoDB.
 - `api`: API REST para acessar os dados.
-- `frontend`: Aplicação React para visualização dos dados.
+- `front`: Aplicação React para visualização dos dados.
 
 ## Contribuições 🤝
 
