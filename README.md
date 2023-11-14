@@ -58,7 +58,7 @@ $ npm run start:api
 
 # Inicie o Frontend React
 $ cd frontend
-$ mpm install
+$ npm install
 $ npm run dev
 ````
 
