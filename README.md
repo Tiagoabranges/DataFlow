@@ -21,9 +21,11 @@ O DataFlow Monitor é um sistema completo que integra um servidor UDP, um client
 
 ## Como Executar 🚀
 
-### Pré-requisitos
-
+### Pré-requisitos 
 - Node.js instalado.
+  
+
+  **Para rodar o projeto com o banco de dados e o frontend**
 - Docker instalado. [docker](https://www.docker.com/products/docker-desktop/)
 - MongoDB rodando localmente ou em um container Docker.
   
