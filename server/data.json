@@ -1,0 +1,178 @@
+[
+  {
+    "type": 1,
+    "protocolo": 66,
+    "utc": "2023-11-15T00:59:00.000Z",
+    "status": 1,
+    "id": "cg2",
+    "_id": "6553edcfff3cb0415fd32929"
+  },
+  {
+    "type": 1,
+    "protocolo": 68,
+    "utc": "2023-11-15T00:59:00.000Z",
+    "status": 1,
+    "id": "epc",
+    "_id": "6553edd4ff3cb0415fd3292a"
+  },
+  {
+    "type": 1,
+    "protocolo": 67,
+    "utc": "2023-11-15T00:59:00.000Z",
+    "status": 0,
+    "id": "r05",
+    "_id": "6553edd9ff3cb0415fd3292b"
+  },
+  {
+    "type": 1,
+    "protocolo": 66,
+    "utc": "2023-11-15T00:59:00.000Z",
+    "status": 1,
+    "id": "wi9",
+    "_id": "6553eddeff3cb0415fd3292c"
+  },
+  {
+    "type": 1,
+    "protocolo": 66,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 0,
+    "id": "fr9",
+    "_id": "6553ede3ff3cb0415fd3292d"
+  },
+  {
+    "type": 1,
+    "protocolo": 66,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 1,
+    "id": "vbh",
+    "_id": "6553ede8ff3cb0415fd3292e"
+  },
+  {
+    "type": 2,
+    "protocolo": 68,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 1,
+    "id": "d8m",
+    "_id": "6553ededff3cb0415fd3292f"
+  },
+  {
+    "type": 2,
+    "protocolo": 66,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 1,
+    "id": "39c",
+    "_id": "6553edf2ff3cb0415fd32930"
+  },
+  {
+    "type": 1,
+    "protocolo": 68,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 1,
+    "id": "ptq",
+    "_id": "6553edf7ff3cb0415fd32931"
+  },
+  {
+    "type": 1,
+    "protocolo": 66,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 0,
+    "id": "mss",
+    "_id": "6553edfcff3cb0415fd32932"
+  },
+  {
+    "type": 1,
+    "protocolo": 67,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 0,
+    "id": "7lt",
+    "_id": "6553ee01ff3cb0415fd32933"
+  },
+  {
+    "type": 1,
+    "protocolo": 67,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 1,
+    "id": "k9r",
+    "_id": "6553ee06ff3cb0415fd32934"
+  },
+  {
+    "type": 2,
+    "protocolo": 68,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 1,
+    "id": "7r4",
+    "_id": "6553ee0bff3cb0415fd32935"
+  },
+  {
+    "type": 2,
+    "protocolo": 66,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 1,
+    "id": "d4y",
+    "_id": "6553ee10ff3cb0415fd32936"
+  },
+  {
+    "type": 2,
+    "protocolo": 67,
+    "utc": "2023-11-15T01:00:00.000Z",
+    "status": 1,
+    "id": "ek5",
+    "_id": "6553ee15ff3cb0415fd32937"
+  },
+  {
+    "type": 2,
+    "protocolo": 66,
+    "utc": "2023-11-15T01:01:00.000Z",
+    "status": 1,
+    "id": "xrs",
+    "_id": "6553ee26ff3cb0415fd32938"
+  },
+  {
+    "type": 2,
+    "protocolo": 67,
+    "utc": "2023-11-15T01:01:00.000Z",
+    "status": 0,
+    "id": "heu",
+    "_id": "6553ee2bff3cb0415fd32939"
+  },
+  {
+    "type": 2,
+    "protocolo": 68,
+    "utc": "2023-11-15T01:01:00.000Z",
+    "status": 0,
+    "id": "j05",
+    "_id": "6553ee30ff3cb0415fd3293a"
+  },
+  {
+    "type": 1,
+    "protocolo": 68,
+    "utc": "2023-11-15T01:01:00.000Z",
+    "status": 1,
+    "id": "fj5",
+    "_id": "6553ee35ff3cb0415fd3293b"
+  },
+  {
+    "type": 1,
+    "protocolo": 67,
+    "utc": "2023-11-15T01:01:00.000Z",
+    "status": 0,
+    "id": "aiz",
+    "_id": "6553ee3aff3cb0415fd3293c"
+  },
+  {
+    "type": 2,
+    "protocolo": 67,
+    "utc": "2023-11-15T01:01:00.000Z",
+    "status": 1,
+    "id": "w4p",
+    "_id": "6553ee3fff3cb0415fd3293d"
+  },
+  {
+    "type": 2,
+    "protocolo": 66,
+    "utc": "2023-11-15T01:01:00.000Z",
+    "status": 1,
+    "id": "v9z",
+    "_id": "6553ee44ff3cb0415fd3293e"
+  }
+]
