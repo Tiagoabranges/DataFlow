@@ -15,9 +15,9 @@ function App() {
     };
 
     fetchData();
-    const intervalId = setInterval(fetchData, 5000); // Atualiza dados a cada 5 segundos
+    const intervalId = setInterval(fetchData, 5000);
 
-    return () => clearInterval(intervalId); // Limpa intervalo quando componente é desmontado
+    return () => clearInterval(intervalId);
   }, []);
 
   return (

@@ -1,5 +1,5 @@
 body {
-  background-color: #f4f4f2; /* Um tom de cinza suave */
+  background-color: #f4f4f2;
 }
 
 .container {
@@ -11,9 +11,9 @@ body {
 }
 
 h1 {
-  color: #3a506b; /* Cor escura para o título */
-  font-size: 2.5rem; /* Tamanho maior para o título */
-  margin-bottom: 20px; /* Espaçamento abaixo do título */
+  color: #3a506b;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
 }
 
 table {
@@ -23,7 +23,7 @@ table {
 }
 
 th {
-  background-color: #5bc0be; /* Cor de destaque para cabeçalhos de tabela */
+  background-color: #5bc0be;
   color: white;
   font-size: 1.1rem;
 }
@@ -35,7 +35,7 @@ td {
 }
 
 .row-style-0 {
-  background-color: #b8d8d8; /* Cores mais vivas para as linhas */
+  background-color: #b8d8d8;
 }
 
 .row-style-1 {

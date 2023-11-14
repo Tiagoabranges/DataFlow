@@ -1,6 +1,8 @@
 const dgram = require('dgram');
 const server = dgram.createSocket('udp4');
 const connectToMongo = require('../db/mongoConnection');
+const fs = require('fs');
+const path = './data.json';
 
 async function parseAndSaveData(msg, db) {
   const regex = />DATA(\d),(\d+),(\d{12}),(\d);ID=(\w+)</;
@@ -28,6 +30,15 @@ async function parseAndSaveData(msg, db) {
       const collection = db.collection('dev_status');
       await collection.insertOne(data);
       console.log('Data inserted:', data);
+      fs.readFile(path, (err, fileData) => {
+        let packets = err || !fileData.length ? [] : JSON.parse(fileData);
+        packets.push(data);
+
+        fs.writeFile(path, JSON.stringify(packets, null, 2), (err) => {
+          if (err) console.error('Error writing to file:', err);
+        });
+      });
+
     } catch (error) {
       console.error('Error inserting data:', error);
     }
