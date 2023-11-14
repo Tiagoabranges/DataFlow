@@ -46,15 +46,16 @@ $ cd DataFlow
 # Instale as dependências
 $ npm install
 
-# MongoDB com Docker
-$ docker pull mongo
-$ docker run --name mongodb -d -p 27017:27017 mongo
-
 # Inicie o servidor UDP
 $ npm run start:server
 
 # Inicie o cliente UDP
 $ npm run start:client
+
+
+# Para utilizar o banco de dados
+$ docker pull mongo
+$ docker run --name mongodb -d -p 27017:27017 mongo
 
 # Inicie a API
 $ npm run start:api
