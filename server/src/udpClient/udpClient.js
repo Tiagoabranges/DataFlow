@@ -4,10 +4,16 @@ const client = dgram.createSocket('udp4');
 function generatePacket() {
   const type = Math.random() > 0.5 ? 1 : 2;
   const protocolo = 66 + Math.floor(Math.random() * 3);
-  const utc = new Date()
-    .toISOString()
-    .replace(/[-:.TZ]/g, '')
-    .substring(0, 12);
+  const now = new Date();
+  const utc = `${now.getFullYear()}${(now.getMonth() + 1)
+    .toString()
+    .padStart(2, '0')}${now.getDate().toString().padStart(2, '0')}${now
+    .getHours()
+    .toString()
+    .padStart(2, '0')}${now.getMinutes().toString().padStart(2, '0')}${now
+    .getSeconds()
+    .toString()
+    .padStart(2, '0')}`;
   const status = Math.random() > 0.5 ? 1 : 0;
   const id = Math.random().toString(36).substring(2, 5);
 

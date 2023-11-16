@@ -5,23 +5,25 @@ const fs = require('fs');
 const path = './data.json';
 
 async function parseAndSaveData(msg, db) {
-  const regex = />DATA(\d),(\d+),(\d{12}),(\d);ID=(\w+)</;
+  const regex =
+    />DATA(\d),(\d+),(\d{4}\d{2}\d{2}\d{2}\d{2}\d{2}),(\d);ID=(\w{3})</;
+
   const match = msg.toString().match(regex);
 
   if (match) {
-    const [_, type, protocolo, yymmddhhmmss, status, id] = match;
-    const utc = `${yymmddhhmmss.substring(0, 4)}-${yymmddhhmmss.substring(
+    const [_, type, protocolo, yyyymmddhhmmss, status, id] = match;
+    const utc = `${yyyymmddhhmmss.substring(0, 4)}-${yyyymmddhhmmss.substring(
       4,
       6,
-    )}-${yymmddhhmmss.substring(6, 8)} ${yymmddhhmmss.substring(
+    )}-${yyyymmddhhmmss.substring(6, 8)} ${yyyymmddhhmmss.substring(
       8,
       10,
-    )}:${yymmddhhmmss.substring(10, 12)}:${yymmddhhmmss.substring(12, 14)}`;
+    )}:${yyyymmddhhmmss.substring(10, 12)}:${yyyymmddhhmmss.substring(12, 14)}`;
 
     const data = {
       type: parseInt(type),
       protocolo: parseInt(protocolo),
-      utc: new Date(utc),
+      utc: utc,
       status: parseInt(status),
       id: id,
     };
@@ -38,7 +40,6 @@ async function parseAndSaveData(msg, db) {
           if (err) console.error('Error writing to file:', err);
         });
       });
-
     } catch (error) {
       console.error('Error inserting data:', error);
     }
