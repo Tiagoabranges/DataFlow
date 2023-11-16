@@ -43,6 +43,9 @@ $ git clone git@github.com:Tiagoabranges/DataFlow.git
 # Acesse a pasta do projeto no terminal/cmd
 $ cd DataFlow
 
+# Acesse a pasta do servidor udp
+$ cd server
+
 # Instale as dependências
 $ npm install
 
